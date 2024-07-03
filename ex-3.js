@@ -1,14 +1,4 @@
 // เริ่มเขียนโค้ดตรงนี้
-// function multiplicationTable(n) {
-//   let finalResult = "";
-//   for (let i = 1; i <= n; i++) {
-//     let rowResult = "";
-//     for (let j = 1; j <= i; j++) {
-//       rowResult += i * j + "\t";
-//     }
-//     finalResult += rowResult.trim() + "\n";  }
-//   return finalResult;
-// }
 function multiplicationTable(n) {
   let finalResult = "";
   for (let i = 1; i <= n; i++) {
